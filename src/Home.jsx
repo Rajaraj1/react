@@ -29,7 +29,7 @@ const Home = () => {
             </div>
             <div className='container my-4 d-flex justify-content-lg-around'>
                 <h1 className='text-dark'>{Count}</h1>
-                <button className='btn btn-outline-primary' onClick={IncNum}>Click Me</button>
+                <button className='btn btn-outline-primary shadow-2xl' onClick={IncNum}>Click Me</button>
             </div>
         </div>
     )
