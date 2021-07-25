@@ -3,7 +3,7 @@ import React from 'react'
 const Card = (props) => {
   return (
     <div>
-      <div class="card shadow-2xl border-3 rounded-3 transition duration-500 ease-in-out bg-blue-600 hover:border-red-700 transform hover:-translate-y-1 hover:scale-110" style={{ width: 18 + 'rem' }}>
+      <div class="card shadow-2xl border-3 rounded-3 transition duration-500 ease-in-out hover:border-red-700 transform hover:-translate-y-1 hover:scale-110" style={{ width: 18 + 'rem' }}>
         <img src={props.imgsrc} class="card-img-top" alt="image not found" />
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
